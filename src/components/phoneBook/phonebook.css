@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.second-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 200px;
+    margin-top: 5px;
+}
+
+.submit, .delete{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+}
+
+.submit{
+    width: 175px;
+}
+
+.delete{
+    width: 65px;
+}
